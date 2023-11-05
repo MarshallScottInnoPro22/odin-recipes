@@ -1,0 +1,13 @@
+body {
+  font-family:Verdana, "DejaVu Sans", sans-serif;
+}
+
+h1 {
+  font-family:Verdana, "DejaVu Sans", sans-serif;
+  font-size: 40px;
+}
+
+.recipe-list {
+  font-weight: bold;
+  text-decoration: none;
+}
