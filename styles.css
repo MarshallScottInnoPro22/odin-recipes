@@ -7,7 +7,7 @@ h1 {
   font-size: 40px;
 }
 
-.recipe-list {
+.recipe-list a {
   font-weight: bold;
   text-decoration: none;
 }
