@@ -10,4 +10,8 @@ h1 {
 .recipe-list a {
   font-weight: bold;
   text-decoration: none;
+  background-color: maroon;
+  color:white;
+  padding: 40px;
+  margin: 30px;
 }
