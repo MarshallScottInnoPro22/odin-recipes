@@ -1,6 +1,6 @@
 body {
   font-family:Verdana, "DejaVu Sans", sans-serif;
-  align-items: center;
+  margin: auto;
 }
 
 h1 {
@@ -23,6 +23,6 @@ h1 {
   list-style-type: none;
 }
 
-img {
-  padding-left: 400px;
+.the-recipe {
+  align-items: center;
 }
