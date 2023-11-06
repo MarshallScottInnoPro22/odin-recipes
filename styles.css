@@ -38,9 +38,10 @@ ul li {
   text-align: center;
 }
 
-.home-button a {
+.home-button {
   background-color: maroon;
   color: white;
+  margin: auto;
   padding: 100 px;
   text-decoration: none;
 }
