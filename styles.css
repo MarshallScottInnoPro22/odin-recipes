@@ -1,12 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family:Verdana, "DejaVu Sans", sans-serif;
-  margin: auto;
 }
 
 h1 {
   font-family:Verdana, "DejaVu Sans", sans-serif;
   font-size: 40px;
-  padding-left: 40px;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 .recipe-list a {
@@ -16,13 +25,15 @@ h1 {
   color:white;
   padding: 40px;
   margin: 30px;
-  display: inline-block;
 }
 
 .recipe-list li {
-  list-style-type: none;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 85px;
 }
 
 .the-recipe {
-  align-items: center;
+  margin-left: 300px;
+  text-align: center;
 }
