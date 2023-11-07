@@ -8,6 +8,11 @@ body {
   font-family:Verdana, "DejaVu Sans", sans-serif;
 }
 
+header {
+  display: flex;
+
+}
+
 h1 {
   font-family:Verdana, "DejaVu Sans", sans-serif;
   font-size: 40px;
@@ -17,6 +22,7 @@ h1 {
 ul li {
   list-style-type: none;
 }
+
 
 .recipe-list a {
   font-weight: bold;
