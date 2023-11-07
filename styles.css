@@ -23,7 +23,13 @@ ul li {
   list-style-type: none;
 }
 
-
+.recipe-list{
+  height: 140px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .recipe-list a {
   font-weight: bold;
@@ -35,12 +41,12 @@ ul li {
 }
 
 .recipe-list li {
-  display: inline-block;
   margin-top: 80px;
   margin-left: 85px;
 }
 
 .the-recipe {
+  min-height: 100vh;
   margin-left: 300px;
   text-align: center;
 }
