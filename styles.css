@@ -6,21 +6,37 @@
 
 body {
   font-family:Verdana, "DejaVu Sans", sans-serif;
+  text-align: center;
 }
 
 header {
   display: flex;
-
 }
 
 h1 {
   font-family:Verdana, "DejaVu Sans", sans-serif;
   font-size: 40px;
   text-align: center;
+  margin-top: 50px;
 }
 
 ul li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.home-button {
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 15px;
+  cursor: pointer;
 }
 
 .recipe-list{
@@ -33,28 +49,30 @@ ul li {
 
 .recipe-list a {
   font-weight: bold;
-  text-decoration: none;
   background-color: maroon;
   color:white;
+  border-radius: 5px;
   padding: 40px;
   margin: 30px;
 }
 
 .recipe-list li {
   margin-top: 80px;
-  margin-left: 85px;
+  margin-left: 30px;
 }
 
 .the-recipe {
-  min-height: 100vh;
-  margin-left: 300px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.home-button {
-  background-color: maroon;
-  color: white;
-  margin: auto;
-  padding: 100 px;
-  text-decoration: none;
+.description, .ingredients, .directions {
+  max-width: 500px;
 }
+
+.directions {
+  text-align: left;
+}
+
