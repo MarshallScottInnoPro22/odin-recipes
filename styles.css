@@ -33,15 +33,23 @@ a {
 .home-button {
   background-color: maroon;
   color: white;
+  font-weight: 700;
   border-radius: 5px;
-  padding: 16px;
+  padding: 1em 2em;
   margin: 15px;
   cursor: pointer;
 }
 
-.recipe-list{
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-list {
   height: 140px;
   padding: 16px;
+  margin-top: 80px;
+  margin-left: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,10 +64,7 @@ a {
   margin: 30px;
 }
 
-.recipe-list li {
-  margin-top: 80px;
-  margin-left: 30px;
-}
+
 
 .the-recipe {
   display: flex;
